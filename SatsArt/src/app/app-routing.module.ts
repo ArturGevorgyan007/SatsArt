@@ -5,9 +5,9 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AnimationComponent } from './animation/animation.component';
 
 const routes: Routes = [
-  { path: '/story/portfolio', component: StoryboardComponent},
+  { path: 'story/portfolio', component: StoryboardComponent},
   { path: '', component: AboutmeComponent},
-  { path: '/animation/portfolio', component: AnimationComponent}
+  { path: 'animation/portfolio', component: AnimationComponent}
 ];
 
 @NgModule({

@@ -5,9 +5,9 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AnimationComponent } from './animation/animation.component';
 
 const routes: Routes = [
-  { path: 'story/portfolio', component: StoryboardComponent},
+  { path: 'https://zealous-meadow-0c2741c10.3.azurestaticapps.net/story/portfolio', component: StoryboardComponent},
   { path: '', component: AboutmeComponent},
-  { path: 'animation/portfolio', component: AnimationComponent}
+  { path: 'https://zealous-meadow-0c2741c10.3.azurestaticapps.net/animation/portfolio', component: AnimationComponent}
 ];
 
 @NgModule({
